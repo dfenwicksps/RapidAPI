@@ -11,7 +11,7 @@ url = "https://covid-193.p.rapidapi.com/countries?rapidapi-key=bd06bb2382msh874e
 
 headers = {
     'x-rapidapi-host': "covid-193.p.rapidapi.com",
-    'x-rapidapi-key': "bd06bb2382msh874e76e6ff29000p12bc4djsn26abdf362181"
+    'x-rapidapi-key': "xxxxxxxxxxxxxxxxxxxx"
     }
 
 # Test output to console
