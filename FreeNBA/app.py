@@ -7,13 +7,13 @@ from flask import Flask, render_template
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'myverysectretkey'
 
-url = "https://free-nba.p.rapidapi.com/players?rapidapi-key=bd06bb2382msh874e76e6ff29000p12bc4djsn26abdf362181"
+url = "https://free-nba.p.rapidapi.com/players?rapidapi-key=xxxxxxxxxxxxxxxxxxxx"
 
 querystring = {"page": "0", "per_page": "50"}
 
 headers = {
     'x-rapidapi-host': "free-nba.p.rapidapi.com",
-    'x-rapidapi-key': "bd06bb2382msh874e76e6ff29000p12bc4djsn26abdf362181"
+    'x-rapidapi-key': "xxxxxxxxxxxxxxxxxxxx"
 }
 
 @app.route('/', methods=['GET'])
