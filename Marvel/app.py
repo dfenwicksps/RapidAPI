@@ -8,8 +8,8 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'myverysectretkey'
 
 timestamp = str(time.time())
-publickey = "c6ed190a2ede12009ea83d486bab3954"
-privatekey = "57b14eac0cfffc30296fa7c4324f9e3054beb52e"
+publickey = "xxxxxxxxxxxxxxxxxxxx"
+privatekey = "xxxxxxxxxxxxxxxxxxxx"
 hash_string = timestamp + privatekey + publickey  #adding the string together for hashing
 hash = hashlib.md5(hash_string.encode("utf-8")).hexdigest()
 parameters = {"ts": timestamp, "apikey": publickey, "hash": hash}
