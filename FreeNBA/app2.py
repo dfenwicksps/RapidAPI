@@ -6,7 +6,7 @@ querystring = {"page":"0","per_page":"25"}
 
 headers = {
     'x-rapidapi-host': "free-nba.p.rapidapi.com",
-    'x-rapidapi-key': "bd06bb2382msh874e76e6ff29000p12bc4djsn26abdf362181"
+    'x-rapidapi-key': "xxxxxxxxxxxxxxxxxxxxx"
     }
 
 response = requests.request("GET", url, headers=headers, params=querystring)
