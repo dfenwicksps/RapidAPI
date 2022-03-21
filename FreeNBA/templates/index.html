@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+        {% for datas in data %}
+         <div class="cards">
+           <span> {{ datas['first_name'] }}
+            {{ datas['last_name'] }},
+               {{ datas['position'] }}</span>
+            <p> {% for key, value in datas['team'].items() %}
+                    {% if key == 'full_name' %}
+                    {{ value }}</p>
+        </div>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+{% endblock content %}
